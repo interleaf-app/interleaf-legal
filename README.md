@@ -20,6 +20,10 @@ Contact: krystal.11381@outlook.com
 ## Brand assets
 
 - Product name: **读迹 / Interleaf**. Marginalia is the app’s internal project name.
-- `assets/app-icon.png`: 180 × 180 default **Spines / 书脊** icon, exported from the app’s Icon Composer document. The warm paper background and four upright book spines match the current app icon.
-- Source: `designs/app-icons/previews/spines-default.png` in [the app repository](https://github.com/summer-521/Marginalia), generated from `Resources/AppIcon.icon`. Copy the current export and resize it to 180 × 180 when refreshing this asset.
+- `assets/app-icon.png`: 180 × 180 default **Natural White / 自然白** icon, exported from the app’s Icon Composer document. The neutral white background and three books match the current default app icon.
+- Source: `designs/app-icons/previews/natural-white-default.png` in [the app repository](https://github.com/summer-521/Marginalia), generated from `Resources/AppIcon.icon`. Copy the current export and resize it to 180 × 180 when refreshing this asset.
 - All six Chinese and English content pages use the same asset for the header, favicon and Apple touch icon; the 404 page also uses it for both browser icons. Update the icon query version on every page when replacing it so returning visitors receive the new icon.
+
+## Icon refresh · 2026-11-11
+
+Updated the default Natural White icon and the icon cache version on all seven HTML pages. Product screenshots are deliberately unchanged; refresh those after version 1.2.0 is live on the App Store.
