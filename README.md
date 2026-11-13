@@ -9,7 +9,7 @@ Official product, privacy and support pages for the Interleaf reading journal.
 
 ## Maintenance
 
-Plain static HTML and CSS; no package manager or build step. Edit the Chinese and English pages together. Screenshots use sample data. The app is preparing for release; add an App Store link only after its listing is available.
+Plain static HTML and CSS; no package manager or build step. Edit the Chinese and English pages together. Screenshots use sample data. The app is available on the App Store: https://apps.apple.com/app/id6832427117. The homepage labels screenshots from the 1.2.2 development build as previews, since the current store version may differ.
 
 Preview: `python3 -m http.server 8080` from this directory.
 
@@ -27,3 +27,11 @@ Contact: krystal.11381@outlook.com
 ## Icon refresh · 2026-11-11
 
 Updated the default Natural White icon and the icon cache version on all seven HTML pages. Product screenshots are deliberately unchanged; refresh those after version 1.2.0 is live on the App Store.
+
+## Product refresh · 2026-11-13
+
+- Refreshed Chinese and English homepages with actual light-mode captures from the app repository’s `codex/1.2.2` checkout (`c05d348` plus the local build-number change to build 13). These are runtime screenshots, not design prototypes.
+- Seven screens per language: Today, Shelf, reading form, note editor, text-scanning review, monthly Stats and yearly Stats. Display assets are JPEGs in `assets/screens/`, sized 804 × 1748, approximately 2.3 MB in total. The full-resolution PNG originals stay in the app’s ignored `screenshots/website-1.2.2/` folder. Older image assets are kept for historical compatibility but no longer referenced by the homepages.
+- Preserved simulator library contents. Used existing sample books, temporary seeded reading drafts and the built-in OCR demonstration; no real camera capture, saved new entries, database reset or app uninstall. The language-specific UI is real; existing sample book titles remain Chinese in both languages.
+- Updated support and privacy facts for formatted notes, local OCR, attachments and `.dujibackup` packages, including old JSON import compatibility. No analytics, third-party scripts, forms, remote fonts or new network services were added.
+- Website changes are independent of the app’s frozen review branch and do not change App Store release status.

@@ -9,3 +9,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
 @media print{body{background:white;color:black}body:before,.site-header,.site-footer,.toc,.skip-link{display:none}.wrap{width:100%}.page{padding:0;max-width:none}.prose section{break-inside:avoid}.prose a{text-decoration:none}.prose a[href^=http]:after{content:' (' attr(href) ')';font-size:10px}details:not([open])>.answer{display:block}summary:after{display:none}}
 .steps{counter-reset:step}.steps li{display:block;position:relative;padding-left:37px;counter-increment:step}.steps li:before{content:counter(step,decimal-leading-zero);position:absolute;left:0;top:16px;font-size:12px;color:var(--muted)}
+
+/* Product refresh · 1.2.2 preview, November 2026. Keep complete screen edges visible. */
+figure{margin:0}.release-note{font-size:12px;line-height:1.8;color:var(--muted);max-width:36em;margin:12px 0 0}.review-heading>div>p:last-child{margin-bottom:0}.phone img{aspect-ratio:402/874;object-fit:contain}.phone{flex-shrink:0}.hero-visual{min-width:0}.feature-visual{min-width:0}@media(max-width:640px){.release-note{font-size:11px}.screens figcaption{line-height:1.6}}
+
+@media(max-width:640px){.hero h1{font-size:clamp(34px,10vw,43px)}}
